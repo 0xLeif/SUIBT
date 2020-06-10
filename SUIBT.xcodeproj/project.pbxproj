@@ -13,6 +13,8 @@
 		290E5C50248EEE4900C029CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 290E5C4F248EEE4900C029CC /* Assets.xcassets */; };
 		290E5C53248EEE4900C029CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 290E5C52248EEE4900C029CC /* Preview Assets.xcassets */; };
 		290E5C56248EEE4900C029CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290E5C54248EEE4900C029CC /* LaunchScreen.storyboard */; };
+		290E5C5F248EEE7100C029CC /* GuessTheColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290E5C5E248EEE7100C029CC /* GuessTheColorView.swift */; };
+		29CE90A62490477A0020FB94 /* ObservingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29CE90A52490477A0020FB94 /* ObservingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		290E5C52248EEE4900C029CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		290E5C55248EEE4900C029CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		290E5C57248EEE4900C029CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		290E5C5E248EEE7100C029CC /* GuessTheColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheColorView.swift; sourceTree = "<group>"; };
+		29CE90A52490477A0020FB94 /* ObservingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		290E5C48248EEE4800C029CC /* SUIBT */ = {
 			isa = PBXGroup;
 			children = (
+				29CE90A42490476B0020FB94 /* Chapter3 */,
+				290E5C5D248EEE5300C029CC /* Chapter2 */,
 				290E5C49248EEE4800C029CC /* AppDelegate.swift */,
 				290E5C4B248EEE4800C029CC /* SceneDelegate.swift */,
 				290E5C4D248EEE4800C029CC /* ContentView.swift */,
@@ -73,6 +79,22 @@
 				290E5C52248EEE4900C029CC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		290E5C5D248EEE5300C029CC /* Chapter2 */ = {
+			isa = PBXGroup;
+			children = (
+				290E5C5E248EEE7100C029CC /* GuessTheColorView.swift */,
+			);
+			path = Chapter2;
+			sourceTree = "<group>";
+		};
+		29CE90A42490476B0020FB94 /* Chapter3 */ = {
+			isa = PBXGroup;
+			children = (
+				29CE90A52490477A0020FB94 /* ObservingView.swift */,
+			);
+			path = Chapter3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +168,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				290E5C5F248EEE7100C029CC /* GuessTheColorView.swift in Sources */,
 				290E5C4A248EEE4800C029CC /* AppDelegate.swift in Sources */,
 				290E5C4C248EEE4800C029CC /* SceneDelegate.swift in Sources */,
+				29CE90A62490477A0020FB94 /* ObservingView.swift in Sources */,
 				290E5C4E248EEE4800C029CC /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
